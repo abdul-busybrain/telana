@@ -6,13 +6,47 @@
   box-sizing: border-box;
 }
 
+/* HEADER */
+.g-padding {
+  padding: 0 7rem;
+}
+
+.header-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-content {
+  background-color: #f2f9f2;
+  padding: 7rem 2.8rem;
+}
+
+.header-content__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__list {
+  padding: 0 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
 /* HERO SECTION */
 .section-hero {
   display: flex;
-  align-items: center;
+  gap: 3rem;
+}
+
+.hero-text {
+  width: 40%;
 }
 
 .hero-img {
-  width: 70rem;
-  height: 30rem;
+  width: 70%;
+}
+
+/* SECTION EXPERIENCE */
+.section-experience {
+  display: flex;
 }
