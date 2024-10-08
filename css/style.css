@@ -7,6 +7,10 @@
 }
 
 /* HEADER */
+header {
+  background-color: #f2f9f2;
+}
+
 .g-padding {
   padding: 0 7rem;
 }
@@ -14,11 +18,7 @@
 .header-info {
   display: flex;
   justify-content: space-between;
-}
-
-.header-content {
-  background-color: #f2f9f2;
-  padding: 7rem 2.8rem;
+  border-color: #fff;
 }
 
 .header-content__top {
